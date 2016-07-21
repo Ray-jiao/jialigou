@@ -1,0 +1,54 @@
+/* CSS Document */
+html,body,h1,h2,h3,h4,h5,h6,dl,ol,ul,li,table,tr,td,p,input,form,fieldset,div{margin:0;padding:0;}
+body{font:12px "微软雅黑";}
+ul,li{list-style:none;}
+a{text-decoration:none;}
+img,input,form{border:none;}
+
+/*-------------------------------indexTop----------------------------------*/
+.indexTop{height:27px;background:#f7f7f7;padding-top:10px;}
+.indexTop a{color:#444;}
+.indexTop-box{width:1190px;height:27px;margin:0 auto;}
+.indexTop .indexTop-l{width:190px;height:16px;background:url(img/index-phone.jpg) no-repeat;;padding-left:18px;float:left;}
+.indexTop-l span{color:#e91456;}
+.indexTop p{width:150px;height:16px;line-height:16px;float:left;}
+.indexTop-r .indexTop-r1{width:82px;height:17px;line-height:17px;background:url(img/index-phone1.jpg) no-repeat;float:right;padding-left:20px;}
+.indexTop-r .indexTop-r2{width:246px;height:17px;line-height:17px;float:right;}
+
+/*-------------------------------indexSearch----------------------------------*/
+.indexSearch{height:94px;}
+.indexSearch-box{width:1190px;height:84px;margin:0 auto;position:relative;padding-top:10px;}
+.indexSearch-box img{display:block;}
+.indexSearch-c{width:405px;height:65px;position:absolute;top:30px;left:415px;}
+.index-f{width:405px;height:32px;border:1px solid #e21357;}
+.indexSearch-c .indexTxt{width:320px;height:32px;line-height:32px;float:left;color:#b6b6b6;}
+.indexSearch-c .indexSub{width:85px;height:32px;float:left;background:#e21357 url(img/index-serach.jpg) no-repeat 12px center;color:#fff;padding-left:35px;}
+.index-n li{width:50px;height:33px;line-height:33px;float:left;text-align:center;}
+.index-n li a{color:#ccc;}
+.index-n li a:hover{text-decoration:underline;color:#e21357;}
+.shoppingCart{width:156px;height:30px;line-height:30px;position:absolute;top:30px;right:0;background:red;float:left;background:url(img/index-shoppingCart.jpg) no-repeat 10px center;padding-left:50px;border:1px solid #e8e8e7;color:#444;}
+
+/*-------------------------------indexNav----------------------------------*/
+.indexNav{height:34px;border-bottom:2px solid #e91455;}
+.indexNav-box{width:1190px;height:34px;margin:0 auto;position:relative;}
+.indexNav-fl{width:190px;height:36px;background:#e91456;position:absolute;top:0;left:0;}
+.indexNav-n{width:600px;height:34px;float:left;margin-left:190px;text-align:center;}
+.indexNav-n li{width:125px;height:34px;float:left;}
+.indexNav-n li a{display:block;width:125px;height:34px;line-height:34px;background:url(img/index-navBg.jpg) no-repeat right center;font-size:18px;color:#444;font-weight:bold;}
+.indexNav-n li a:hover{color:#e91456;}
+.indexNav-phone{width:200px;height:34px;line-height:34px;float:right;margin-right:190px;color:#444;} 
+.indexNav-phone span{color:#e91456;}
+.indexNav-n .indexNav-first a{color:#e91456;}
+
+/*-------------------------------indexBanner----------------------------------*/
+.indexBanner{height:480px;position:relative;margin:0 auto;}
+.indexBanner-box{width:1190px;height:480px;background:red;z-index:2;margin:0 auto;position:absolute;margin:0 auto;}
+.indexBanner-img{width:100%;height:480px;overflow:hidden;position:absolute;top:0;z-index:1;margin:0 auto;}
+.indexBanner-img li{width:100%;height:480px;position:absolute;top:0;}
+.indexBanner-img li img{width:100%;height:100%;}
+
+
+
+
+
+
